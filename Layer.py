@@ -1,8 +1,6 @@
 # Layer.py 
 
 from Neuron import neuron 
-from Connection import connection
-
 
 class layer: 
 

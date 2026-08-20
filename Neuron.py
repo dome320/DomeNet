@@ -1,6 +1,5 @@
 # Neuron.py 
 
-from Connection import connection
 import random
 
 class neuron:
@@ -10,7 +9,7 @@ class neuron:
         self.bias: float = random.random()
         self.connections = []
 
-    def connect(self, c: connection):
+    def connect(self, c: "connection"):
         self.connections.append(c)
 
     def update(self, value: int):

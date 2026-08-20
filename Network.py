@@ -1,7 +1,6 @@
 # Network.py
 
 from Layer import layer 
-from Neuron import neuron 
 from Connection import connection
 import math 
 from itertools import zip_longest
@@ -54,7 +53,7 @@ class network:
 
         for layer in self.layers[1:]:
 
-            for neuron in layer:
+            for neuron in layer.neurons:
 
                 sum = 0.0
                 for connection in neuron.connections:
