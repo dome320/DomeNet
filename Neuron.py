@@ -17,5 +17,5 @@ class neuron:
         self.value = value
 
     def __str__(self):
-        print(f"({self.value})")
+        return f"({self.value})"
      
